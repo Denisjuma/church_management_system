@@ -1,0 +1,52 @@
+.member-dashboard {
+    display: flex;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #343a40;
+    padding-top: 20px;
+    color: #fff;
+  }
+  
+  .sidebar-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-header h3 {
+    font-size: 1.5rem;
+  }
+  
+  .list-unstyled {
+    padding-left: 0;
+  }
+  
+  .list-unstyled li {
+    padding: 10px 0;
+  }
+  
+  .list-unstyled li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .list-unstyled li a:hover {
+    color: #17a2b8;
+  }
+  
+  .list-unstyled li a svg {
+    margin-right: 10px;
+  }
+  
+  .content {
+    margin-left: 250px;
+    padding: 20px;
+  }
+  

@@ -1,0 +1,121 @@
+/* AdminDashboard.css */
+
+/* Sidebar */
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #343a40;
+    padding-top: 20px;
+    transition: width 0.3s ease; /* Add transition for smoother animation */
+    z-index: 1; /* Ensure sidebar stays on top of other content */
+}
+
+.sidebar-header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    transition: opacity 0.3s ease; /* Add transition for smoother animation */
+}
+
+.sidebar-header h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.list-unstyled {
+    padding-left: 0;
+}
+
+.list-unstyled li {
+    padding: 10px 0;
+}
+
+.list-unstyled li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding-left: 2px;
+}
+
+.list-unstyled li a:hover {
+    color: #17a2b8;
+}
+
+.list-unstyled li a svg {
+    margin-right: 10px;
+}
+
+/* Page Content */
+#content {
+    margin-left: 250px; /* Initial margin-left when sidebar is open */
+    padding: 20px;
+    transition: margin-left 0.3s ease; /* Add transition for smoother animation */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar button {
+    color: #1e1d1d; /* Change button color */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    color: #17a2b8; /* Change button color on hover */
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Toggled state for sidebar */
+#wrapper.toggled #sidebar {
+    width: 0; /* Set width to 0 to hide the sidebar */
+}
+
+#wrapper.toggled #content {
+    margin-left: 0; /* Set margin-left to 0 to move content to the left */
+}
+
+/* Hide sidebar header text when sidebar is collapsed */
+#wrapper.toggled .sidebar-header {
+    opacity: 0; /* Set opacity to 0 to hide the text */
+    display: none;
+}
+
+
+
+
+/* Hide sidebar header text and links when sidebar is collapsed */
+
+#wrapper.toggled .list-unstyled li {
+    opacity: 0; /* Set opacity to 0 to hide the text and links */
+    display:none;
+}
+

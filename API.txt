@@ -1,0 +1,20 @@
+######### FINANCIAL APP ##############
+---------------------------------------
+
+GET /api/incomes/
+POST /api/incomes/
+GET /api/incomes/<pk>/
+PUT /api/incomes/<pk>/
+DELETE /api/incomes/<pk>/
+GET /api/expenses/
+POST /api/expenses/
+GET /api/expenses/<pk>/
+PUT /api/expenses/<pk>/
+DELETE /api/expenses/<pk>/
+GET /api/budgets/
+POST /api/budgets/
+GET /api/budgets/<pk>/
+PUT /api/budgets/<pk>/
+DELETE /api/budgets/<pk>/
+GET /api/financial-report/
+------------------------------------------

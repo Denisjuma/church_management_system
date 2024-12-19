@@ -1,0 +1,48 @@
+.budget-reports {
+  padding: 20px;
+}
+
+.chart-container {
+  margin-bottom: 20px;
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.share-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+.budget-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.budget-table th, .budget-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.budget-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}

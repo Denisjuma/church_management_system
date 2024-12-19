@@ -1,0 +1,603 @@
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.link{
+  font-size: 20px;
+  line-height: 50px;
+  
+} 
+.item-flex{
+  display:flex;
+  flex-direction:inherit;
+} 
+.home{
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+section{
+  margin-top: 50px;
+  padding: 20px;
+}
+.footer{
+  width: 100%;
+  height: auto;
+  background-color: #e5e7eb;
+}
+.footer-text{
+  text-align: center;
+  color: #008a00;
+  padding: 10px;
+  text-transform: capitalize;
+  font-size:200;
+
+}
+
+/*Home image at Media Query */
+@media screen and (max-width: 600px){
+  .bg-image{
+    width: 100%;
+    height: 60vh;
+    position:relative;
+    text-align: center;
+    color: #000000;
+    opacity: 0.9;
+  }
+
+  .home-description{
+    position: absolute;
+    bottom:50px;
+    right:40px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: lowercase;
+  }
+  .btn-bottom{
+    position:absolute;
+    bottom: 25px;
+    right: 20px;
+    background-color: #39393A;
+  }
+}
+
+
+/* Announcement */
+.announcement-mt{
+  margin-top: 0;
+}
+
+/* Sngle announcement*/
+.section-mt{
+  margin-top: 83px;
+}
+
+
+/* single event*/
+.singleEvent-mt{
+   margin-top: 83px;
+}
+
+
+/*services Section*/
+.card:hover{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.card-mt{
+  margin-top: 5rem;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* NavBar Section*/
+.navbar {
+  background-color: #f8f9fa;
+  padding: 0.5rem 0;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-text {
+  font-size: 1.2rem;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+/* Carlosel  Section*/
+.bg-image {
+  background-image: url('../public/assets/image_4.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -9px;
+  
+}
+
+.home-title {
+  font-size: 2.5rem;
+  position: absolute;
+  bottom: 270px;
+  right: 16px;
+  font-weight:600;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.home-description {
+  font-size: 1.5rem;
+  position: absolute;
+  bottom:200px;
+  right:40px;
+  font-size: 20px;
+  font-weight: 600;
+ 
+}
+
+.btn-bottom {
+  background-color: #007bff;
+  color: #fff;
+  position:absolute;
+  bottom: 120px;
+  right: 300px;
+}
+
+.btn-bottom:hover {
+  background-color: #0056b3;
+}
+
+.btn-lg {
+  padding: 12px 24px;
+  font-size: 1.25rem;
+}
+
+
+/* Services Section*/
+.service-card {
+  border: none;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+  font-size: 3rem;
+  color: #007bff;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .service-icon {
+    font-size: 2.5rem;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
+/* Donate Form Section*/
+.donate-section {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.donate-heading {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.donate-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.donate-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.donate-button:hover {
+  background-color: #0056b3;
+}
+
+
+/* SIGN IN */
+.form-container{
+  background-image: url('../public/assets/bible.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-top: 7rem;
+}
+.sign-in {
+  background-color: #ffffff;
+  width: 70%; /* Adjust width to fit the page */
+  max-width: 60rem; /* Limit maximum width */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  border-radius: 1rem;
+  margin: auto ; 
+  overflow: hidden;
+}
+.image{
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sign-in_details {
+  padding: 0 3rem;
+  height: 100vh;
+  max-height: 32.3rem;
+  
+}
+
+.sign-in_form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+input:not([type="checkbox"]) {
+  width: 100%;
+  border: 1px solid gray;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+input::placeholder {
+  color: gray;
+}
+
+label {
+  font-weight: 500;
+  color: black;
+}
+
+.sign-in_extras {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign-in_extras div {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+button:last-child {
+  margin-top: -0.5rem;
+}
+
+.next-page {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.sign-in_logo {
+  display: grid;
+  place-content: center;
+  background-color: goldenrod;
+  height: 100%;
+}
+
+.sign-in_logo div {
+  width: 22rem;
+  aspect-ratio: 1/1;
+}
+.next-page {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.next-page link {
+  color: #007bff;
+}
+.btn3 {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  width: 50%;
+  padding: 5px;
+  border-radius: 5px;
+  margin: auto;
+  display: block;
+}
+
+.btn3:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+/* Sign In MEDIA QUERY (Small screens) */
+@media screen and (max-width: 600px){
+  .form-container{
+      display: block;
+      background-color: white;
+  }
+  h1{
+      font-size: 1.5rem;
+  }
+  .sign-in{
+      grid-template-columns: 1fr;
+      overflow: visible;
+      width: 100vw;
+      margin-top: -1rem;
+  }
+  .sign-in_details{
+      grid-row: 2/3;
+      padding: 2rem 1.5rem;
+  }
+  .sign-in_form{
+      margin-top: 1.5rem;
+      gap: 1rem;
+      
+  }
+  .sign-in_extras{
+      flex-direction: column;
+      gap:0.8rem; 
+  }
+  .sign-in_logo{
+      padding: 1.5rem 0;
+  }
+  .sign-in_logo div{
+      width: 10rem;
+  }
+}
+
+
+
+/*signup Form*/
+.signUp_form_container{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-image: url('../public/assets/bible.png');
+  background-size: cover;
+  background-position: center;
+  font-size: 1rem;
+  display:grid;
+  place-items: center;
+  height:100vh;
+  opacity: 1;
+  padding-top: 7rem;
+}
+
+.sign-up{
+  height: 90vh;
+  max-height: 32.3rem;
+  margin: auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+/* In adimin add staff page */
+.sign-up1{
+  height: 70vh;
+  max-height: 30rem;
+  margin: auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.sign-up_form {
+  text-align: center;
+  max-height: 25.3rem;
+  height: 100vh;
+}
+.sign-up_form h1 {
+  font-size: 24px;
+  color: #333;
+}
+.form-control1 {
+  margin-bottom: 20px;
+}
+.form-control1 label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-control1 select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.btn2 {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  width: 50%;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.btn2:hover {
+  background-color: #0056b3;
+}
+
+.next1-page {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.next1-page link {
+  color: #007bff;
+}
+
+.default_image {
+  display: block;
+  margin: auto;
+  width: 150px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Apply border radius for circular shape */
+  border: 2px solid #007bff; /* Add border with color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+/* About Us Section */
+.cont-1 {
+  padding: 2rem;
+  margin-top: 65px;
+}
+
+.about-us {
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  margin-top: 2rem;
+}
+
+.content-2 {
+  line-height: 1.6;
+ 
+}
+
+.ul-class {
+  list-style-type: none;
+}
+
+.ul-class li::before {
+  content: "•";
+  margin-right: 0.5rem;
+}
+
+
+.receipt-content {
+  margin: 20px;
+}
+
+.receipt-content h2 {
+  margin-bottom: 10px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Hide elements when printing */
+@media print {
+  .actions, .actions button {
+    display: none;
+  }
+
+  .receipt-content {
+    page-break-before: auto;
+  }
+
+  .receipt-content h2 {
+    page-break-before: auto;
+  }
+}
+
+
+

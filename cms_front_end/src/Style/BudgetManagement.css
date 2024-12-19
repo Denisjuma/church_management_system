@@ -1,0 +1,58 @@
+.budget-management {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background: #343a40;
+    color: #fff;
+    height: 100vh;
+    padding: 15px;
+  }
+  
+  .sidebar .sidebar-header {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar .components {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar .components li {
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
+  .sidebar .components li:hover {
+    background: #495057;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .budget-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .budget-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .budget-form .form-group input,
+  .budget-form .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .budget-form .btn {
+    display: inline-flex;
+    align-items: center;
+  }
+  

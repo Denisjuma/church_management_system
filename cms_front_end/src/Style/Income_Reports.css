@@ -1,0 +1,48 @@
+.income-reports {
+    padding: 20px;
+  }
+  
+  .report-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .report-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .summary {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .summary-item {
+    background: #d6d7d9;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .summary-item h3 {
+    margin-bottom: 10px;
+  }
+  
+  .chart-container {
+    margin-bottom: 40px;
+    position: relative;
+    height: 300px; /* Set the height to reduce the size */
+    width: 600px;  /* Set the width to reduce the size */
+    margin: auto;
+  }
+  
+  .chart-container h3 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
